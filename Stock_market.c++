@@ -14,7 +14,7 @@ public:
     int volume;
 
     Stock(int id, string n, double p, int v)
-        : stockID(id), name(n), price(p), volume(v)    {}
+        : stockID(id), name(n), price(p), volume(v)     {}
 
     void UpdatePrice(double newPrice) {
         price = newPrice;
